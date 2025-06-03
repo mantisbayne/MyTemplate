@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     topBar = {
                         TopAppBar(
-                            title = { Text("Task Board") }
+                            title = { Text("Android") }
                         )
                     }
                 ) { innerPadding ->
@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
                     Column(
                         Modifier.padding(innerPadding)
                     ) {
-
+                        Text("Hello, Android")
                     }
                 }
             }
